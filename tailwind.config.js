@@ -6,7 +6,7 @@ module.exports = {
   },
   plugins: [
     require('@catppuccin/tailwindcss')({
-      prefix: 'mmlt',
+      prefix: 'lc',
       defaultFlavour: 'latte',
     }),
   ],

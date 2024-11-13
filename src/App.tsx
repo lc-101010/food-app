@@ -1,8 +1,12 @@
 import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Land from './pages/Land';
+import Home from './pages/Home';
 
-const routes = [{ path: '/', element: <Land /> }];
+const routes = [
+  { path: '/', element: <Land /> },
+  { path: '/home', element: <Home /> },
+];
 
 const options = {
   future: {
