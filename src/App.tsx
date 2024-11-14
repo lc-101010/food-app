@@ -1,7 +1,7 @@
 import './App.css';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Land from './pages/Land';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Home from './pages/Home';
+import Land from './pages/Land';
 
 const routes = [
   { path: '/', element: <Land /> },
